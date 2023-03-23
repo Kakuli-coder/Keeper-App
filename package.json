@@ -1,5 +1,6 @@
 {
   "name": "using-pre-built-react-components",
+  "homepage": "https://kakuli-coder.github.io/Keeper-App/",
   "version": "1.0.0",
   "description": "Keeper App is a simple React App that lets you keep your notes at one place. 'Add Notes with Title' and 'Delete' them whenever you wish.",
   "keywords": [],
@@ -7,8 +8,10 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
+    "gh-pages": "^5.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
@@ -16,6 +19,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
