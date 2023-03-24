@@ -33,6 +33,10 @@ npm install -g create-react-app
 
 1. Clone the project into local.
 
+```
+  git clone https://github.com/Kakuli-coder/Keeper-App.git
+  ```
+
 2. Install all the npm packages. Go into the project folder and type the following command to install all npm packages.
 
 ```
