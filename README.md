@@ -31,19 +31,31 @@ npm install -g create-react-app
 
 ## Cloning and Running the Application in local
 
-1. Clone the project into local.
+1. cd to the location in terminal where you want to clone the repository.
+
+```
+  cd your_path
+```
+
+2. Clone the project into the local:
 
 ```
   git clone https://github.com/Kakuli-coder/Keeper-App.git
-  ```
+```
 
-2. Install all the npm packages. Go into the project folder and type the following command to install all npm packages.
+3. Go to the directory:
+
+```
+  cd Keeper-App
+```
+  
+4. Install all the npm packages:
 
 ```
   npm install
-  ```
+```
 
-3. In order to run the application, type the following command:
+5. In order to run the application, type the following command:
 
 ```
 npm start
